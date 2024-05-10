@@ -64,8 +64,10 @@ const Todo = () => {
         }
     
     useEffect(() => {
-      const clientId = "0105d52004784de78d1427080a2ab87d"
-      const clientSecret = "852b715b0b7c4e14b1843e6e4e9e015a";
+          //ingresar su clientID
+      const clientId = "xxxxd52004784de78d1427080a2ab87d"
+          //ingresar su clientSecretID
+      const clientSecret = "xxxb715b0b7c4e14b1843e6e4e9e015a";
       const redirectUri = 'http://localhost:5173/'
       const code = "AQC1dyL6uPxJMPW0r7xhMiNx5AS48wbroyUbUYRYfGCGIvuEd8gxvUQenBkmRsYNSjZW5hT7qHEQ54aPbvJsVQSKgUORXWv3783K2CK_bLrm9qZUufpOsjSN8DGQDsqw_Zn44vIvBx3MTMbneJaJTV3sno0I8UyPYIQ"
       const load_initial_page = async () => {
