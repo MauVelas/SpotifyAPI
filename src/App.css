@@ -1,0 +1,52 @@
+.album {
+  background-color: rgb(230, 240, 233);
+  border: solid 2px rgb(197, 197, 197);
+  border-radius: 5px;
+  padding: 1em;
+  width: 300px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.album-name{
+  font-size: 2em;
+  text-align: center;
+  font-weight: bold;
+}
+
+.show-songs-btn{
+  transition: background-color 0.5s;
+}
+.show-songs-btn:hover{
+  background-color: rgb(137, 178, 220);
+  border: none;
+}
+
+.colection {
+  margin: 1em 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-evenly;
+}
+
+.searchBar {
+  display: flex;
+  background-color: aqua;
+  justify-content: space-evenly;
+  height: 50px;
+  align-items: center
+}
+
+.searchInput {
+  width: 70%;
+  height: 70%;
+}
+
+.searchButton {
+  width: 20%;
+  height: 70%;
+}
